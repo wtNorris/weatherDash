@@ -35,25 +35,20 @@
         </section>
 
         <section class="currentWeather">
-            <div class="weatherCard">
+
+            <div class="weatherCard" id="weathCard">
                 <div class="nameBlock">
-                    <h3 id="cityName"></h3>
+                    <h3 id="cityNameCard"></h3>
                     <img src="" alt="" id="currentIcon">
-                </div>
-                <div>
-                    <p class="currentInfo" id="temperature"></p>
-                </div>
-                <div>
-                    <p class="currentInfo" id="humidity"></p>
-                </div>
-                <div>
-                    <p class="currentInfo" id="windSpeed"></p>
-                </div>
+                    <p class="temperature"></p>
+                    <p class="humidity"></p>
+                    <p class="windSpeed"></p>
                 <div class="uvIndexClass">
                     <p>UV Index: </p>
                     <p class="rounded currentInfo" id="uvIndex"></p>
                 </div>
             </div>
+
         </section>
 
         <section class="fiveDay">
@@ -137,10 +132,10 @@
     </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
       integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/script.js"></script>
 </body>
 
 </html>
