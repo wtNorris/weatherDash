@@ -39,6 +39,12 @@ let currentWeather = (cityName) => {
     $("#weathCard").append($('<p class="windSpeed">').text(`Wind speed: ${response.wind.speed} MPH`));
     //getUvBGN();
     //getForecast();
+
+    console.log(cityName);
+
+    // $("#searchedBtn").append($('<button class="searchedBtn">').text(cityName));
+    // adds last search to button... continuously though
+    
     })
 }
 

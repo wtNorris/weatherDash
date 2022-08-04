@@ -12,6 +12,14 @@ header {
     background-image: linear-gradient(to right, rgb(155, 245, 137), rgb(247, 142, 142), rgb(133, 133, 248));
 }
 
+ul {
+    background-image: linear-gradient(to right, rgb(155, 245, 137), rgb(247, 142, 142), rgb(133, 133, 248));
+    list-style-type: none;
+    border-top: black 2px;
+    margin: auto;
+    padding: 9px;
+}
+
 .cardHead {
     background-image: linear-gradient(to right, rgb(155, 245, 137), rgb(247, 142, 142), rgb(133, 133, 248));
     text-align: center;
